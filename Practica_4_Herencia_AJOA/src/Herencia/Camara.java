@@ -12,8 +12,8 @@ public class Camara extends DispositivoMovil{
 		this.fotografia = fotografia;
 	}
 	
-	public String verFotografia() {
-		return fotografia;
+	public void verFotografia() {
+		System.out.println("Es una foto de: " + fotografia);
 	}
 	
 }
