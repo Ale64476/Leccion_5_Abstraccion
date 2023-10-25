@@ -17,7 +17,7 @@ public class Gameboy extends DispositivoMovil {
 		if(game == null){
 			System.out.println("No hay ningun juego para jugar :(");
 		} else {
-		System.out.println("Usted está jugando" + game + ":D");
+		System.out.println("Usted está jugando " + game + ":D");
 		}
 	}
 }
