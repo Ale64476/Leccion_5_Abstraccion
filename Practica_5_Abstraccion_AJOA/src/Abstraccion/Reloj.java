@@ -27,4 +27,9 @@ public class Reloj extends TareaPeriodica {
 		return 0;
 	}
 	
+	public void run() {
+		if(this.necesitaEjecucion()) {
+			this.ejecutarTarea();
+		}
+	}
 }
