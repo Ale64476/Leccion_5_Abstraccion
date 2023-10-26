@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class Ejecutor extends TareaPeriodica{
 	
-	private String comando;
+	protected String comando;
 	
 	public Ejecutor(String comando, int periodo){
 		super(periodo);
